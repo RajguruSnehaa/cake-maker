@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio Cake Builder</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Sanrio Cake Builder</h2>
+        <div class="step active" id="step1">
+            <img src="./images/character_icon.png" alt="Character Icon" class="step-icon">
+            <span>1. Choose Character</span>
+        </div>
+        <div class="step" id="step2">
+            <img src="flavor_icon.png" alt="Flavor Icon" class="step-icon">
+            <span>2. Choose Flavor</span>
+        </div>
+        <div class="step" id="step3">
+            <img src="frosting_icon.png" alt="Frosting Icon" class="step-icon">
+            <span>3. Pick Frosting</span>
+        </div>
+        <div class="step" id="step4">
+            <img src="celebration_icon.png" alt="Celebration Icon" class="step-icon">
+            <span>4. Celebrate!</span>
+        </div>
+    </div>
+
+    <div class="content" id="main-content">
+        <h1>Welcome to Build your own cake! :3</h1>
+        <p style="font-size: 20px;">Thats right, we're making a sanrio themed cake! Go ahead and pick who you wanna turn into a cake hehe.</p>
+          
+        <div id="cake-builder">
+            <div id="shape-options">
+                <div class="cake-images">
+                    <div class="image-btn-container">
+                        <img src="./images/pomcake.jpg" alt="Pompom cake" height="350" width="350">
+                        <button style="" id="pompompurinBtn" onclick="selectShape('pom-pom')">PomPom ૮₍ ´ ꒳ `₎ა</button>
+                    </div>
+                    <div class="image-btn-container">
+                        <img src="./images/hammyCake.jpg" alt="Melo cake" height="350" width="350" margin-left="20px">
+                        <button style="" id="hamBtn"onclick="selectShape('hammyy')">Hammy! ⪩ •⩊• ⪨</button>
+                    </div>
+                    <div class="image-btn-container">
+                        <img src="./images/melocake.jpg" alt="Melo cake" height="350" width="350" margin-left="20px">
+                        <button id="meloBtn" onclick="selectShape('melo')">My Melo ૮ ˶ᵔ ᵕ ᵔ˶ ა </button>
+                    </div>
+                </div>
+            <!-- More buttons for other shapes -->
+            </div>
+            <div id="next-btn-container">
+
+                <button class="button next-btn" onclick="nextStep()">Next
+                    <img width="30" height="30" src="https://img.icons8.com/pulsar-color/48/right-squared.png" alt="right-squared"/>
+                </button> 
+                <!-- <button class="button next-btn" onclick="previousStep()">Previous</button> -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>

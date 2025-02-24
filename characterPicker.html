@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Welcome to Build your own cake! :3</h1>
+        <p style="font-size: 20px;">Thats right, we're making a sanrio themed cake! Go ahead and pick who you wanna turn into a cake hehe.</p>
+          
+        <div id="cake-builder">
+            <div id="shape-options">
+                <div class="cake-images">
+                    <div class="image-btn-container">
+                        <img src="./images/pomcake.jpg" alt="Pompom cake" height="350" width="350">
+                        <button style="" id="pompompurinBtn" onclick="selectShape('pom-pom')">PomPom ૮₍ ´ ꒳ `₎ა</button>
+                    </div>
+                    <div class="image-btn-container">
+                        <img src="./images/hammyCake.jpg" alt="Melo cake" height="350" width="350" margin-left="20px">
+                        <button style="" id="hamBtn"onclick="selectShape('hammyy')">Hammy! ⪩ •⩊• ⪨</button>
+                    </div>
+                    <div class="image-btn-container">
+                        <img src="./images/melocake.jpg" alt="Melo cake" height="350" width="350" margin-left="20px">
+                        <button id="meloBtn" onclick="selectShape('melo')">My Melo ૮ ˶ᵔ ᵕ ᵔ˶ ა </button>
+                    </div>
+                <!-- More buttons for other shapes -->
+                </div>
+            </div>
+            <div id="next-btn-container">
+
+                <button class="button next-btn" onclick="nextStep()">Next
+                    <img width="30" height="30" src="https://img.icons8.com/pulsar-color/48/right-squared.png" alt="right-squared"/>
+                </button>
+                <!-- <button class="button next-btn" onclick="previousStep()">Previous</button> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

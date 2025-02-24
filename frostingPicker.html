@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>The cake is getting yummier :3</h1>
+        <p style="font-size: 20px;">Now what kind of frosting do you want this masterpiece of a cake to have?</p>
+       
+        <div id="cake-builder">
+            <div id="shape-options">
+                <div class="cake-images">
+                        <div class="image-btn-container">
+                            <img src="./images/ChocolateFrosting.jpg" alt="Chocolate frosting" height="350" width="350">
+                            <button style="" id="cfrostBtn" onclick="selectFrosting('ChocolateFrosting')">Chocolate</button>
+                        </div>
+                        <div class="image-btn-container">
+                            <img src="./images/StrawberryFrosting.jpg" alt="StrawberryFrosting" height="350" width="350" margin-left="20px">
+                            <button style="" id="sfrostBtn"onclick="selectFrosting('StrawberryFrosting')">Strawberryyyy</button>
+                        </div>
+                        <div class="image-btn-container">
+                            <img src="./images/mangofrosting.jpg" alt="mangofrosting" height="350" width="350" margin-left="20px">
+                            <button id="mfrostBtn" onclick="selectFrosting('MangoFrosting')">Mango yum :3</button>
+                        </div>
+                <!-- More buttons for other shapes -->
+                </div>
+            </div>
+        </div>
+        <div id="next-btn-container">
+
+            <button class="button prev-btn" onclick="previousStep()">
+                <img width="30" height="30" id="prev-arrow" src="https://img.icons8.com/pulsar-color/48/right-squared.png" alt="right-squared"/>
+                Previous
+            </button>
+            <div style="width: 50px;"></div>
+            <button class="button next-btn" onclick="nextStep()">Next
+                <img width="30" height="30" src="https://img.icons8.com/pulsar-color/48/right-squared.png" alt="right-squared"/>
+            </button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,236 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #FFD1DC; /* Sanrio Pink */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 3px solid #FFC0CB; /* Slightly darker pink */
+    height: 100vh;
+}
+
+.sidebar h2 {
+    color: #FF69B4; /* Hot Pink */
+    margin-bottom: 20px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.step:hover {
+    background-color: #FFC0CB;
+}
+
+.step-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.step.completed {
+    background-color: #FFB6C1; /* Light Pink */
+}
+
+.step.active {
+    background-color: #FF69B4; /* Hot Pink */
+    color: white;
+}
+
+/* Main Content Styles */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #FFF8F0;
+}
+
+.content h1 {
+    color: #FF69B4;
+}
+
+#next-btn-container{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 50px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    width: 150px;
+}
+
+#start-again-btn {
+    width: 250px;
+}
+
+#prev-arrow{
+    transform: rotate(180deg);
+}
+
+.button:hover {
+    background-color: #FF1493; /* Darker Pink */
+}
+
+#cakeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cakeImage{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#pompompurinBtn{
+    font-size: 20px;
+    color:brown;
+    background-color: #f2fb90;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#pompompurinBtn:hover{
+    background-color: #eefc49;
+}
+#hamBtn{
+    font-size: 20px; 
+    color: rgba(102, 45, 45, 0.812);
+    background-color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#hamBtn:hover{
+    background-color: #e3b1a9;
+}
+#meloBtn{
+    font-size: 20px;
+    color:#ff6395;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#meloBtn:hover{
+    background-color: #fde7ec
+}
+.cake-images{
+    display: flex;
+    gap: 1rem;
+}
+#chococakeBtn{
+    font-size: 20px;
+    color:rgba(102, 45, 45, 0.812);
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#chococakeBtn:hover{
+    background-color: #e3b1a9;
+}
+
+.image-btn-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#strawBtn{
+    font-size: 20px;
+    color:#ff171b;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#strawBtn:hover{
+    background-color: #fde0e7
+}
+#rvBtn{
+    font-size: 20px;
+    color:#630103;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#rvBtn:hover{
+    background-color: #fbc7cd
+}
+#cfrostBtn{
+    font-size: 20px;
+    color:rgb(50, 21, 1);
+    background-color: #ffd3b6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#cfrostBtn:hover{
+    background-color: #dd9974;
+}
+#sfrostBtn{
+    font-size: 20px;
+    color:#ff171b;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#sfrostBtn:hover{
+    background-color: #fde0e7
+}
+#mfrostBtn{
+    font-size: 20px;
+    color:rgb(255, 221, 0);
+    background-color: #f4ffba;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#mfrostBtn:hover{
+    background-color: #fef282;
+}
