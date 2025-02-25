@@ -60,9 +60,9 @@ body {
 }
 
 .content h1 {
-    color: #FF69B4;
+    color: #fe3e8b;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 #next-btn-container{
 
     width: 100%;
