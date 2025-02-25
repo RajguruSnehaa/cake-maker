@@ -35,41 +35,41 @@ function updateCakeImage() {
 
     if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Chocolate Frosting") {
         console.log("Inside 1st condition")
-        cakeSelection.image = "./images/chocopom.jpg";
+        cakeSelection.image = "./images/chocopom.webp";
     } else if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Chocolate Frosting") {
-        cakeSelection.image = "./images/chocopom.jpg";
+        cakeSelection.image = "./images/chocopom.webp";
     } else if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "redvelvet" && cakeSelection.frosting === "Chocolate Frosting") {
-        cakeSelection.image = "./images/chocopom.jpg";
+        cakeSelection.image = "./images/chocopom.webp";
     } else if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/PompStrawberry.jpg";
+        cakeSelection.image = "./images/PompStrawberry.webp";
     } else if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/PompStrawberry.jpg";
+        cakeSelection.image = "./images/PompStrawberry.webp";
     } else if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "redvelvet" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/PompStrawberry.jpg";
+        cakeSelection.image = "./images/PompStrawberry.webp";
     } else if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Mango Frosting") {
-        cakeSelection.image = "./images/mango_pom.jpg";
+        cakeSelection.image = "./images/mango_pom.webp";
     } else if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Mango Frosting") {
-        cakeSelection.image = "./images/mango_pom.jpg";
+        cakeSelection.image = "./images/mango_pom.webp";
     } else if (cakeSelection.character === "pom-pom" && cakeSelection.flavour === "redvelvet" && cakeSelection.frosting === "Mango Frosting") {
-        cakeSelection.image = "./images/mango_pom.jpg";
+        cakeSelection.image = "./images/mango_pom.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Chocolate Frosting") {
-        cakeSelection.image = "./images/chocohammy.jpg";
+        cakeSelection.image = "./images/chocohammy.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Chocolate Frosting") {
-        cakeSelection.image = "./images/chocohammy.jpg";
+        cakeSelection.image = "./images/chocohammy.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "redvelvet" && cakeSelection.frosting === "Chocolate Frosting") {
-        cakeSelection.image = "./images/chocohammy.jpg";
+        cakeSelection.image = "./images/chocohammy.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/strawberryhamster.jpg";
+        cakeSelection.image = "./images/strawberryhamster.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/strawberryhamster.jpg";
+        cakeSelection.image = "./images/strawberryhamster.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "redvelvet" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/strawberryhamster.jpg";
+        cakeSelection.image = "./images/strawberryhamster.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Mango Frosting") {
-        cakeSelection.image = "./images/mango_hammy.jpg";
+        cakeSelection.image = "./images/mango_hammy.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Mango Frosting") {
-        cakeSelection.image = "./images/mango_hammy.jpg";
+        cakeSelection.image = "./images/mango_hammy.webp";
     } else if (cakeSelection.character === "hammyy" && cakeSelection.flavour === "redvelvet" && cakeSelection.frosting === "Mango Frosting") {
-        cakeSelection.image = "./images/mango_hammy.jpg";
+        cakeSelection.image = "./images/mango_hammy.webp";
     } else if (cakeSelection.character === "melo" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Chocolate Frosting") {
         cakeSelection.image = "./images/chocomelo.webp";
     } else if (cakeSelection.character === "melo" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Chocolate Frosting") {
@@ -77,11 +77,11 @@ function updateCakeImage() {
     } else if (cakeSelection.character === "melo" && cakeSelection.flavour === "redvelvet" && cakeSelection.frosting === "Chocolate Frosting") {
         cakeSelection.image = "./images/chocomelo.webp";
     } else if (cakeSelection.character === "melo" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/STRAWBERRYMELO.jpg";
+        cakeSelection.image = "./images/STRAWBERRYMELO.webp";
     } else if (cakeSelection.character === "melo" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/STRAWBERRYMELO.jpg";
+        cakeSelection.image = "./images/STRAWBERRYMELO.webp";
     } else if (cakeSelection.character === "melo" && cakeSelection.flavour === "redvelvet" && cakeSelection.frosting === "Strawberry Frosting") {
-        cakeSelection.image = "./images/STRAWBERRYMELO.jpg";
+        cakeSelection.image = "./images/STRAWBERRYMELO.webp";
     } else if (cakeSelection.character === "melo" && cakeSelection.flavour === "chocolate" && cakeSelection.frosting === "Mango Frosting") {
         cakeSelection.image = "./images/mangomelo.webp";
     } else if (cakeSelection.character === "melo" && cakeSelection.flavour === "strawberry" && cakeSelection.frosting === "Mango Frosting") {
