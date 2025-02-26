@@ -104,11 +104,11 @@ function getCakeHeading() {
     // Custom headings based on character selection
     switch (cakeSelection.character) {
         case "pom-pom":
-            return `TADAAAA! Your ${cakeSelection.flavour} Pompom cake is here!! 🍮`;
+            return `TADAAAA! Your ${cakeSelection.frosting} Pompom cake is here!! 🍮`;
         case "hammyy":
-            return `We got a special hammy ${cakeSelection.flavour} cake! :3 🐹`;
+            return `We got a special hammy ${cakeSelection.frosting} cake! :3 🐹`;
         case "melo":
-            return `A pretty pretty Melo ${cakeSelection.flavour} cake <3 🎀`;
+            return `A pretty pretty Melo ${cakeSelection.frosting} cake <3 🎀`;
         default:
             return "Your Custom Cake!";
     }

@@ -14,7 +14,8 @@ body {
     flex-direction: column;
     align-items: center;
     border-right: 3px solid #FFC0CB; /* Slightly darker pink */
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 }
 
 .sidebar h2 {
@@ -64,11 +65,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 #next-btn-container{
-
+    /* background-color: #630103; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content:center;
+    margin-top: 50px;
 }
 
 .button {
@@ -80,7 +82,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 50px;
     font-size: 20px;
     align-items: center;
     justify-content: center;
@@ -91,6 +92,7 @@ body {
 
 #start-again-btn {
     width: 250px;
+    margin-top: 30px;
 }
 
 #prev-arrow{
@@ -123,6 +125,7 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 
 #pompompurinBtn:hover{
@@ -136,6 +139,7 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 #hamBtn:hover{
     background-color: #e3b1a9;
@@ -148,6 +152,7 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 #meloBtn:hover{
     background-color: #fde7ec
@@ -155,6 +160,7 @@ body {
 .cake-images{
     display: flex;
     gap: 1rem;
+    justify-content: center;
 }
 #chococakeBtn{
     font-size: 20px;
@@ -164,6 +170,7 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 #chococakeBtn:hover{
     background-color: #e3b1a9;
@@ -182,6 +189,7 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 #strawBtn:hover{
     background-color: #fde0e7
@@ -194,6 +202,7 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 #rvBtn:hover{
     background-color: #fbc7cd
@@ -206,6 +215,7 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 #cfrostBtn:hover{
     background-color: #dd9974;
@@ -218,6 +228,7 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 #sfrostBtn:hover{
     background-color: #fde0e7
@@ -230,7 +241,19 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 350px;
 }
 #mfrostBtn:hover{
     background-color: #fef282;
+}
+
+@media screen and (max-width: 1000px) {
+    .cake-images{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1, h2, p{
+        text-align: center;
+    }
 }
